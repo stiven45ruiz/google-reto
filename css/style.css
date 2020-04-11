@@ -114,7 +114,7 @@ center
     border: transparent;
     position: static;   
 }
-.botones-abj
+
 {
     display: inline-block;
     margin-bottom: 2em;
@@ -194,4 +194,57 @@ center
 .color-vin:hover
 {
     text-decoration: underline;
+}
+@media screen and (max-width: 640px)
+{
+    body
+    {
+        width: 340px;
+    }
+    .container
+    {
+        display: flex;
+        
+        align-self: center;
+        width: 233px;
+        height: 140;
+    }
+    .buscador
+    {
+        width: 222px;    
+        border: transparent;
+        position: static;   
+    }
+    .icon-buscador
+    {
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        background: #fff;
+        height: 34px;
+        width: 262px;
+    }
+    .botones-abj
+    {
+        display: none;
+    }
+    .como
+    {
+        display: none !important;
+    }
+    .color-vin
+    {
+        
+    }
+    .br-iz
+    {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .br-dr
+    {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
 }
